@@ -1,1 +1,3 @@
-languages = ["ruby", "javascript", "python", "objective-c"]
+def yes
+  puts
+end
