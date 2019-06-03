@@ -1,6 +1,8 @@
 def my_collect(array)
   my_statments = []
   i = 0
-  do |name|
+  my_collect(students) do |name|
    name.split(" ").first
+  my_collect(languages) do |lang|
+    lang.upcase
 end
