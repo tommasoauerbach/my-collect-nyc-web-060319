@@ -1,10 +1,10 @@
 def my_collect(languages)
-  if block_given?
+  my_statments = []
   i = 0
 
   while i < array.length
     yeild(array[i])
     i = i + 1
   end
-  languages.upcase
+  my_statments
 end
