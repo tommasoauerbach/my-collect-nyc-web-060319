@@ -1,6 +1,9 @@
-def my_collect(students)
-  students.collect do |student|
-    "#{student}".first
+def my_collect(languages)
+  i = 0
+
+  while i < array.length
+    yeild(array[i])
+    i = i + 1
   end
-  students
+  languages.upcase
 end
