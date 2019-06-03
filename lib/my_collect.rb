@@ -4,6 +4,3 @@ def my_collect(array)
 end
 
 def my_collect(students)
-
-  students.each do
-  end
